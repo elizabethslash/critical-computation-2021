@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Critical Computation</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div style="font-size: 24px">
+        <a href="../">
+          Critical Computation
+        </a>
+      </div>
+      <div><a href="../syllabus/">syllabus</a></div>
+      <div>
+        <a
+          href="https://docs.google.com/document/d/1Ys7vgu9EzaN4TJtlDBwhE9Utso-Mci8hIh_kCjhfsH0/edit#heading=h.dwxd84w1owa"
+          target="blank"
+          >schedule</a
+        >
+      </div>
+      <div><a href="../assignment/">assignments</a></div>
+      <div><a href="../resource/">resources</a></div>
+      <div><a href="../people/">people</a></div>
+      <div><a href="../faq/">faq</a></div>
+    </div>
+
+    <div class="main-container">
+      <div id="sub-nav">
+        <ul>
+          <li><a href="1.html">#1 Lost & Found</a></li>
+          <li><a href="2.html">#2 Form Generator</a></li>
+          <li><a href="3.html">#3 Experimental Clock</a></li>
+          <li><a href="4.html">#4 Exquisite Corpse</a></li>
+          <li><a href="5.html">#5 Anti-Surveillance Tool</a></li>
+          <li><a href="6.html">#6 Experimental Camera</a></li>
+          <li><a href="7.html">#7 Bitmap Game</a></li>
+          <li><a href="8.html">#8 Consentful Interface</a></li>
+          <li><a href="9.html">#9 Data Portrait</a></li>
+          <li><a href="10.html">#10 Translation Device</a></li>
+        </ul>
+      </div>
+      <div id="main-panel">
+        <h1>
+          Lost & Found
+        </h1>
+
+        <h1>
+          Objective
+        </h1>
+        <p>
+          Draw an object described to you in plain language through code.
+        </p>
+
+        <h1>
+          Description
+        </h1>
+        <p>
+          We remember the past through word and image. Oftentimes when we
+          describe our memories to our friends, our spoken words construct an
+          image in their mind. This image is their interpretation of our
+          memories and inevitably it’s going to look very different from the
+          image in our mind. Because unlike a computer programming language, the
+          human language is spectacularly ambiguous. It is always approximative
+          and never fully accurate.
+          <br /><br />
+          For example, to describe a smiley face:
+        </p>
+
+        <div class="two-grid-container">
+          <div class="two-grid-item">
+            <b>Human Language</b>
+          </div>
+          <div class="two-grid-item">
+            <b>Computer Language</b>
+          </div>
+          <div class="two-grid-item">
+            The person is looking straight ahead and carrying a smile.
+          </div>
+          <div class="two-grid-item">
+            noFill();<br />
+            strokeWeight(4);<br />
+            stroke(0);<br />
+            ellipse(200, 200, 100, 100);<br />
+            arc(200, 215, 33, 30, 0, PI);<br />
+            fill(0);<br />
+            ellipse(180, 190, 10, 10);<br />
+            ellipse(220, 190, 10, 10);<br />
+          </div>
+        </div>
+
+        <p>
+          Assignment 1 explores this ambiguity in human language as well as the
+          gap between human language and computer language. Completed in pairs
+          of two, you will work with a partner and exchange detailed
+          descriptions of a personal object you have lost in the past. Then
+          based on the descriptions, you will re-create the objects for your
+          partner in p5.js.
+          <br /><br />
+          Your partner will be assigned to you during CC Lab. The assessment of
+          the assignment is not dependent on the work your partner completes.
+          Your work will be evaluated based on the code you produce and
+          reflections you write.
+        </p>
+
+        <h1>
+          Design Constraint
+        </h1>
+
+        <p>Canvas Size: 400 x 400px</p>
+
+        <h1>
+          Timeline
+        </h1>
+        <h2>
+          Part 1 : Due 9/3
+        </h2>
+        <ol>
+          <li>
+            Choose an object you have lost in the past that has meaning to you.
+          </li>
+          <li>
+            Describe the object using plain language. It is up to you how much
+            detail you impart, but be mindful of your own assumptions about what
+            your partner might know about the object.
+          </li>
+          <li>
+            Be prepared to share your written description in CC Lab on 9/3,
+            where you will be paired with a partner. Be ready to discuss any
+            questions you may have about the next part of the assignment.
+          </li>
+        </ol>
+
+        <h2>
+          Part 2: Due 9/8
+        </h2>
+
+        <ol>
+          <li>
+            Share your description (without any reference images) with your
+            assigned partner.
+          </li>
+          <li>
+            After exchanging descriptions begin drawing that image on a piece of
+            paper. Then transfer the drawing in pseudocode. Be sure to include
+            the following technical components in your sketch:
+            <ul>
+              <li>2D primitives</li>
+              <li>fill() and blendMode()</li>
+              <li>Translate(), Rotate(), Push(), Pop()</li>
+            </ul>
+          </li>
+
+          <li>
+            Be sure to include the following information:
+            <ul>
+              <li class="bullet">Your p5 sketch (embedded iframe)</li>
+              <li class="bullet">Your name</li>
+              <li class="bullet">Your partner’s name</li>
+              <li class="bullet">The object description you received</li>
+              <li class="bullet">Your assignment reflections</li>
+            </ul>
+          </li>
+
+          <li>
+            Reflect upon the following:
+            <ul>
+              <li class="bullet">
+                The language your partner used to describe the image
+              </li>
+              <li class="bullet">Your interpretation of the image</li>
+              <li class="bullet">The depiction of the image using code</li>
+              <li class="bullet">
+                The differences in interpretation at all stages of the
+                assignment
+              </li>
+            </ul>
+          </li>
+        </ol>
+
+        <h1>
+          Submission Guidelines
+        </h1>
+        <p>
+          Please submit your sketch to two places:
+        </p>
+        <ol>
+          <li>Submit the sketch to the CC Lab class Canvas Assignment 1</li>
+          <li>Add the sketch to your Critical Computation portfolio</li>
+        </ol>
+
+        <h1>
+          Tutorials
+        </h1>
+        <ul>
+          <li>
+            1.1 p5 Web Editor and the Console (<a
+              href="https://youtu.be/wiG7wLwyW0E"
+              target="_blank"
+              >YouTube</a
+            >
+            /
+            <a
+              href="https://diode.zone/videos/watch/ce6aa5ed-7170-4b07-84db-5fa10199a55d"
+              target="_blank"
+              >PeerTube</a
+            >), Xin Xin
+          </li>
+          <li>
+            1.2 2D Primitives (<a
+              href="https://youtu.be/hISICBkFa4Q"
+              target="_blank"
+              >YouTube</a
+            >
+            /
+            <a
+              href="https://diode.zone/videos/watch/f791e49d-3be6-47b8-bad6-27aacadce78c"
+              target="_blank"
+              >Peer Tube</a
+            >), Xin Xin
+          </li>
+          <li>
+            1.3 RGB Colors and blendMode() (<a
+              href="https://www.youtube.com/watch?v=fTEvHLLwSBE&feature=youtu.be"
+              target="_blank"
+              >YouTube</a
+            >
+            /
+            <a
+              href="https://diode.zone/videos/watch/bf6a2187-93aa-494f-86a7-5834a20b4d47"
+              target="_blank"
+              >PeerTube</a
+            >), Xin Xin
+          </li>
+          <li>
+            1.4 translate(), rotate(), push(), pop() (<a
+              href="https://www.youtube.com/watch?v=maTfm84mLbo&feature=youtu.be"
+              target="_blank"
+              >YouTube</a
+            >
+            /
+            <a
+              href="https://diode.zone/videos/watch/37b25b2f-f067-4514-af58-f9087d7d9e34"
+              target="_blank"
+              >PeerTube</a
+            >), Xin Xin
+          </li>
+          <li>
+            Embed p5 Sketch on Glitch (<a
+              href="https://www.youtube.com/watch?v=FkGnZTu51PQ&feature=youtu.be"
+              target="_blank"
+              >YouTube</a
+            >), aarati akkapeddi
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
