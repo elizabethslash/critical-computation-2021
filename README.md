@@ -1,6 +1,6 @@
-# Critical Computation 2020
+# Critical Computation 2021
 
-This is the website for Critical Computation, a graduate-level course at Parsons Design & Technology at the New School.
+This is the website for Critical Computation, an undergraduate and graduate-level course at Parsons Design & Technology at the New School.
 
 ### Lecture Faculty
 
@@ -9,13 +9,13 @@ This is the website for Critical Computation, a graduate-level course at Parsons
 
 ### Lab Faculty
 
-- Aarati Akkapeddi (she/her/they)
-- Bolor Amgalan (she/her)
-- Cassandra Hradil (she/her)
-- Elena Gold (they/them)
-- Jon Packles (he/him/his)
-- Lan Zhang (she/her)
-- Shirley Leung (she/her)
+- Aarati Akkapeddi (they/them)
+- Elizabeth Pérez (she/her)
+- Jill Shah (she/her)
+- Jules Kris (they/them)
+- Kevin Cadena (he/him)
+- Sean Scanlan (he/him)
+- Tristan Espinoza (he/they)
 
 ## Course Descriptions
 
@@ -32,4 +32,4 @@ Lab expands the topics covered in CC Lecture through extended tutorials, pair-pr
 1. Investigate the relationship between code, design, and critique through past examples and creating your own.
 1. Ability to discuss and create work through a critical lens and reference computational arts and culture through a non-Western-centric, multilinear perspective.
 1. Gain insights into the social impact of code; how it creates empowerments and disempowerment under different contexts.
-1. Assess and manipulate data and text critically via APIs, databases, and regular expressions.
+1. Acquire a basic understanding of how to assess and manipulate data critically via APIs and regular expressions.
