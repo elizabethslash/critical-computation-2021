@@ -14,7 +14,18 @@
     url("https://cdn.glitch.com/e65c6bfb-f5bf-4ddf-a967-53a0e911a960%2FBespoke-R40K4cJxyk.svg?v=1598689303109")
       format("svg");
 }
+/* PLANT IMAGES */
+.plant-icon{
+  display: inline-block;
+    vertical-align: middle;
+}
+.plant-icon img{
+  height: 150px;
+  margin:20px;
 
+  width:auto;
+}
+/* END PLANT IMAGES */
 body {
   font-family: "Inconsolata", monospace;
   margin: 0;
