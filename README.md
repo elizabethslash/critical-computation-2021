@@ -10,8 +10,8 @@ This is the website for Critical Computation, an undergraduate and graduate-leve
 ### Lab Faculty
 
 - Aarati Akkapeddi (they/them)
+- Dan Lichtman (he/him)
 - Elizabeth Pérez (she/her)
-- Jill Shah (she/her)
 - Jules Kris (they/them)
 - Kevin Cadena (he/him)
 - Sean Scanlan (he/him)
