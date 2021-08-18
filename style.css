@@ -453,6 +453,9 @@ td {
 
 /*  */
 @media only screen and (max-width: 600px) {
+  .falling-leaves{
+      display: none;
+  }
   .divider-mobile {
     display: block;
     border: 0.1px solid black;
