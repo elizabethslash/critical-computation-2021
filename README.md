@@ -1,6 +1,6 @@
 # Critical Computation 2021
 
-This is the website for Critical Computation, an undergraduate and graduate-level course at Parsons Design & Technology at the New School.
+This is the [website](https://parsonsdt.github.io/critical-computation-2021/) for Critical Computation, an undergraduate and graduate-level course at Parsons Design & Technology at the New School.
 
 ### Lecture Faculty
 
